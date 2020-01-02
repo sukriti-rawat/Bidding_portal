@@ -5,7 +5,7 @@
   "main": "src/app.ts",
   "scripts": {
     "buildd": "tsc",
-    "start": "node /app.js",
+    "start": "node dist/app.js",
     "prod": "npm run build && npm run start",
     "dev": "nodemon src/app.ts"
   },
